@@ -30,5 +30,4 @@
 *.tps
 *.blx.bib
 *.run.xml
-final_paper_psych.log
-final_paper_psych.synctex.gz
+*.synctex.gz
