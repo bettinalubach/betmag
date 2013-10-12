@@ -19,7 +19,7 @@ read_chunk('stat_betmag.R')
 bla bla bla \cite{Aaker1997}, and so on and so on \cite{Batra2004}, and even further information \cite{Burmann2007}.
 <<stat1>>=
 @
-ölajs följas flsjf ölajsfölkj ölsjf lsjfdljs lfjsl fjlsjf sf 
+change change ölajs följas flsjf ölajsfölkj ölsjf lsjfdljs lfjsl fjlsjf sf 
 <<stat2>>=
 @
 
