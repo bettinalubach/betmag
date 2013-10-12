@@ -1,0 +1,34 @@
+\documentclass{scrartcl}
+\usepackage{lipsum}
+\usepackage{apacite}
+\title{A first project using \LaTeX, {\sf R} and Mendely in combination with subversion control system git}
+\author{Bettina Lubach, Magnus Metz}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+<<setup, echo=FALSE>>=
+opts_chunk$set(fig.path='figure/beamer-', fig.align='center', fig.show='hold', size='footnotesize', dev='tikz', cache=TRUE, cache.path='cache/')
+read_chunk('stat_betmag.R')
+@
+
+\section{First section}
+bla bla bla \cite{Aaker1997}, and so on and so on \cite{Batra2004}, and even further information \cite{Burmann2007}.
+<<stat1>>=
+@
+ölajs följas flsjf ölajsfölkj ölsjf lsjfdljs lfjsl fjlsjf sf 
+<<stat2>>=
+@
+
+\section{Second section}
+ouoerto oeuotueot uoeuotueotueor utoeutoeu touer otueot oerutoeurout oeutoeu toue otoer toeur toue rotueo toerutoeutouer toiu reotueorutoer toeuot ueotuero toeutoer t
+
+
+%---------------------------------------------------------------------
+% BIBLIOGRAPHY:
+\bibliographystyle{apacite}
+\renewcommand{\bibliographytypesize}{\small} % set font size for bibliography
+\interlinepenalty 10000 % no pagebreaks within citations
+\bibliography{ref_betmag}
+\end{document}
