@@ -15,7 +15,9 @@ opts_chunk$set(fig.path='figure/beamer-', fig.align='center', fig.show='hold', s
 read_chunk('stat_betmag.R')
 @
 
-\section{First section}
+
+
+\section{Second section}
 bla bla bla \cite{Aaker1997}, and so on and so on \cite{Batra2004}, and even further information \cite{Burmann2007}.
 <<stat1>>=
 @
@@ -23,8 +25,15 @@ change change ölajs följas flsjf ölajsfölkj ölsjf lsjfdljs lfjsl fjlsjf sf
 <<stat2>>=
 @
 
-\section{Second section}
-ouoerto oeuotueot uoeuotueotueor utoeutoeu touer otueot oerutoeurout oeutoeu toue otoer toeur toue rotueo toerutoeutouer toiu reotueorutoer toeuot ueotuero toeutoer t
+\section{Third section}
+ouoerto oeuotueot uoeuotueotueor utoeutoeu touer otueot oerutoeurout oeutoeu toue otoer toeur toue rotueo toerutoeutouer toiu reotueorutoer toeuot ueotuero toeutoer t As you can see in figure \ref{fig:fig1} the circles in the plot are red.
+
+
+<<stat3, results='hide', echo=FALSE>>=
+@
+
+<<fig1, fig.cap='First figure', out.width='.60\\linewidth', echo=FALSE>>=
+@
 
 
 %---------------------------------------------------------------------
