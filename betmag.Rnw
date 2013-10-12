@@ -1,12 +1,14 @@
 \documentclass{scrartcl}
-\usepackage{lipsum}
+\usepackage{cmbright}
 \usepackage{apacite}
+
 \title{A first project using \LaTeX, {\sf R} and Mendely in combination with subversion control system git}
 \author{Bettina Lubach, Magnus Metz}
 \date{\today}
 
 \begin{document}
 \maketitle
+\tableofcontents
 
 <<setup, echo=FALSE>>=
 opts_chunk$set(fig.path='figure/beamer-', fig.align='center', fig.show='hold', size='footnotesize', dev='tikz', cache=TRUE, cache.path='cache/')
